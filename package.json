@@ -1,0 +1,60 @@
+{
+  "name": "text-expansion-calculator",
+  "version": "0.1.0",
+  "description": "Calculate expected text expansion when translating UI copy to 40+ languages. Estimates character count, visual width, and layout overflow risk — for App Store screenshots, web apps, and mobile UI design.",
+  "keywords": [
+    "text-expansion",
+    "localization",
+    "i18n",
+    "translation",
+    "ui-design",
+    "app-store",
+    "screenshots",
+    "layout",
+    "typography",
+    "typescript"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlperenGuntekin/text-expansion-calculator.git"
+  },
+  "homepage": "https://shotlingo.com/tools/text-expansion-calculator",
+  "bugs": {
+    "url": "https://github.com/AlperenGuntekin/text-expansion-calculator/issues"
+  },
+  "author": {
+    "name": "Alperen Güntekin",
+    "url": "https://shotlingo.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "app-store-locales": "^0.1.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
