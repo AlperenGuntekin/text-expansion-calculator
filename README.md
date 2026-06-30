@@ -1,4 +1,4 @@
-# text-expansion-calculator
+# text-expansion-calculator — App Store Screenshot Text Expansion Calculator
 
 [![npm version](https://img.shields.io/npm/v/text-expansion-calculator.svg)](https://www.npmjs.com/package/text-expansion-calculator)
 [![license](https://img.shields.io/npm/l/text-expansion-calculator.svg)](./LICENSE)
@@ -122,10 +122,15 @@ recommendSourceBudget(30, ['ja', 'ko']);     // → 30 (CJK shrinks, no constrai
 - [**app-store-locales**](https://www.npmjs.com/package/app-store-locales) — the underlying locale dataset (40+ languages, codes, fonts, RTL)
 - [**Shotlingo**](https://shotlingo.com) — the product this package is extracted from. Automate the entire screenshot localization pipeline, not just the math.
 
+## Related tools
+
+- [App Store screenshot sizes reference](https://shotlingo.com/tools/screenshot-sizes) — current size requirements for every App Store & Google Play screenshot slot
+- [App Store character limits reference](https://shotlingo.com/tools/app-store-character-limits) — every field's character limit in one place
+
 ## License
 
 MIT © [Alperen Güntekin](https://shotlingo.com)
 
 ---
 
-<sub>Maintained as part of the [Shotlingo](https://shotlingo.com) open-source toolbox. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
+<sub>Built by [the App Store screenshot sizes reference](https://shotlingo.com) and AI-powered screenshot localization tool, Shotlingo. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
