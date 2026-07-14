@@ -1,7 +1,9 @@
 # text-expansion-calculator — App Store Screenshot Text Expansion Calculator
 
 [![npm version](https://img.shields.io/npm/v/text-expansion-calculator.svg)](https://www.npmjs.com/package/text-expansion-calculator)
+[![npm downloads](https://img.shields.io/npm/dm/text-expansion-calculator.svg)](https://www.npmjs.com/package/text-expansion-calculator)
 [![license](https://img.shields.io/npm/l/text-expansion-calculator.svg)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/AlperenGuntekin/text-expansion-calculator.svg?style=social)](https://github.com/AlperenGuntekin/text-expansion-calculator)
 
 > Calculate expected text expansion when translating UI copy to 40+ languages. Estimate character count, visual width, and layout overflow risk.
 
@@ -124,8 +126,8 @@ recommendSourceBudget(30, ['ja', 'ko']);     // → 30 (CJK shrinks, no constrai
 
 ## Related tools
 
-- [App Store screenshot sizes reference](https://shotlingo.com/tools/screenshot-sizes) — current size requirements for every App Store & Google Play screenshot slot
-- [App Store character limits reference](https://shotlingo.com/tools/app-store-character-limits) — every field's character limit in one place
+- [App Store locale codes lookup](https://shotlingo.com/tools/app-store-locale-codes) — the locale dataset behind these expansion estimates.
+- [RTL screenshot preview](https://shotlingo.com/tools/rtl-screenshot-preview) — preview how expanded/RTL text actually renders in a screenshot frame.
 
 ## License
 
@@ -133,4 +135,4 @@ MIT © [Alperen Güntekin](https://shotlingo.com)
 
 ---
 
-<sub>Built by [the App Store screenshot sizes reference](https://shotlingo.com) and AI-powered screenshot localization tool, Shotlingo. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
+<sub>Made by [App Store screenshot generator](https://shotlingo.com) — Shotlingo, AI-powered App Store screenshot localization for 40+ languages. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
