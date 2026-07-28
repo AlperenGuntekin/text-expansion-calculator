@@ -135,4 +135,4 @@ MIT © [Alperen Güntekin](https://shotlingo.com)
 
 ---
 
-<sub>Made by [App Store screenshot generator](https://shotlingo.com) — Shotlingo, AI-powered App Store screenshot localization for 40+ languages. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
+<sub>Made by [App Store screenshot sizes reference](https://shotlingo.com) — Shotlingo, AI-powered App Store screenshot localization for 40+ languages. Found a wrong expansion estimate? [Open an issue](https://github.com/AlperenGuntekin/text-expansion-calculator/issues).</sub>
